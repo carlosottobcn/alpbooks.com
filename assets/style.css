@@ -97,3 +97,7 @@ form.signup .btn{width:100%;font-size:18px;padding:16px}
 footer{background:var(--navy);color:#aeb7cb;font-size:14px;padding:32px 0}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 footer a{color:#cfd6e6}
+
+.cover-img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover}
+.book .actions .btn.soon{background:#e7e2d9;color:#5b6170;cursor:default;box-shadow:none;font-size:15px;padding:10px 16px}
+.book .actions a.link{background:none;padding:10px 2px;color:var(--teal-dark);font-weight:600;text-decoration:underline}
