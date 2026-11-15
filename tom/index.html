@@ -36,10 +36,10 @@
       <li><span class="n">4</span><div><b>The Long Afternoon</b><span>For the slow days. Ten minutes, one small move.</span></div></li>
     </ul>
 
-    <!-- KIT FORM: replace this form with the Kit embed once the account is set up -->
-    <form class="signup" id="signup" action="#" method="post">
+    <!-- Kit form 10194801 (Tom - The Tuesday Talks). After signup Kit redirects to /tom/thanks/; after confirming, to /tom/listen/ -->
+    <form class="signup" id="signup" action="https://app.kit.com/forms/10194801/subscriptions" method="post">
       <label for="fname">First name</label>
-      <input type="text" id="fname" name="first_name" autocomplete="given-name" placeholder="Your first name">
+      <input type="text" id="fname" name="fields[first_name]" autocomplete="given-name" placeholder="Your first name">
       <label for="email">Email</label>
       <input type="email" id="email" name="email_address" autocomplete="email" placeholder="you@example.com" required>
       <button class="btn" type="submit">Send me the Tuesday Talks</button>
@@ -56,12 +56,5 @@
   </div>
 </footer>
 
-<script>
-// Temporary until the Kit form is connected.
-document.getElementById('signup').addEventListener('submit', function (e) {
-  e.preventDefault();
-  this.outerHTML = '<p class="note"><b>Almost ready.</b> The Tuesday Talks are being recorded right now. Please check back in a few days.</p>';
-});
-</script>
 </body>
 </html>
